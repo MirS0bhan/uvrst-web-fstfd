@@ -1,0 +1,189 @@
+body {
+    background-color: rgb(222, 170, 28);
+    height: 100vh;
+    max-height: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    position: static;
+
+}
+
+#main {
+    background-color: white;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 20px;
+}
+
+nav{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    text-align: center;
+    color: #292929;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style-type: none;
+    justify-content: center; /* centers horizontally */
+    align-items: center; /* centers vertically */
+    width: 100%;
+    margin: auto 0;
+
+}
+
+
+#logo {
+    max-height: 7vh;
+    max-width: fit-content;
+}
+
+#pizza {
+    position: fixed;
+
+    height: 20vh;
+    min-height: 500px;
+    min-width: 500px;
+    width: 20vw;
+    right: 20%;
+    left: auto;
+    top: 200px;
+    z-index: 20;
+}
+
+#shape {
+    position: sticky;
+    background-color: rgb(193, 31, 31);
+    border-radius: 100% 0% 0% 100%;
+    height: 10vh;
+    min-height: 350px;
+    min-width: 350px;
+    width: 10vw;
+    right: auto;
+    left: 100%;
+    top: 330px;
+}
+
+#footer {
+    background-color: rgb(14, 14, 14);
+    border-radius: 100% 100% 0% 0%;
+    height: 5vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 10;
+
+}
+#footer p {
+    color: white;
+}
+
+.layer0{
+    z-index: 0;
+}
+
+.abutton {
+    background: rgb(193, 31, 31);
+    border: 0px;
+    height: 40px;
+    width: 80px;
+    border-radius: 75px;
+    display: flexbox;
+    justify-content: center;
+    color: aliceblue;
+}
+button p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    margin: 0;
+}
+
+#auth-button {
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+    height: inherit;
+}
+
+#landp {
+    position: fixed;
+    width: 30vw;
+    margin-top: 120px;
+    margin-left: 75px;
+    height: auto;
+    z-index: 30;
+}
+
+#landp h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+
+}
+
+#landb {
+    position: relative;
+    background-color: black;
+    color: whitesmoke;
+    left: 80%;
+    width: 100px;
+    height: 40px;
+    text-size-adjust: 20px;
+}
+
+#menu{
+    position: fixed;
+    height: 200px;
+    width: 37%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 100px;
+}
+
+.item{
+    background-color: rgb(236, 210, 140);
+    border-radius: 20px;
+    padding: 13px;
+    min-width: 100px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.item img{
+    max-width: 87px;
+    max-height: 87px;
+}
+
+.item h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.item p {
+    max-width: 70px;
+    margin-top: 0;
+    max-height: 100px;
+}
