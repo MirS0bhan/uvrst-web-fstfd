@@ -170,11 +170,14 @@ button p {
     justify-items: center;
     align-items: center;
     align-content: center;
+    position: relative;
 }
 
-.item img{
-    max-width: 87px;
-    max-height: 87px;
+.item img {
+    position: fixed;
+    bottom: 20%;
+    margin-bottom: 20px;
+    width: 100px;
 }
 
 .item h3 {
@@ -186,4 +189,9 @@ button p {
     max-width: 70px;
     margin-top: 0;
     max-height: 100px;
+}
+
+div.text {
+    position: relative;
+    top: 50%;
 }
